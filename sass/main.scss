@@ -1,0 +1,20 @@
+@import './utils/vars';
+@import './utils/visually-hidden';
+
+@import './base/reset.scss';
+@import './base/common.scss';
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/benefits';
+@import './layout/doing';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/footer';
+@import './components/modal';
+@import './layout/portfolio';
+
+@import './components/container';
+@import './components/modal';
+@import './components/current';
+

@@ -1,0 +1,94 @@
+.team{
+    color: $first-color;
+    padding: 94px 15px ;
+}
+
+.team__background{
+    background-color: #F5F4FA;
+}
+
+.team__container{
+    text-align: center;
+}
+
+.team__title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+
+.team__corporate{
+    
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.team__corporates{
+    background-color: $white-text-color;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+
+
+.team__name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+
+.team__description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18; 
+    margin-bottom: 16px;
+    color: $secondary-color;
+}
+
+
+.team__social{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.team__social-list{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color:  $white-text-color;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2196F3;
+    transition: background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus{
+    background-color: $hover-focus-color;
+    
+}
+    }
+
+.team__icon{
+    fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    .team__social-list:hover &,
+    .team__social-list:focus &{
+    fill: $white-text-color;
+    
+}
+}
+
+
+
+
+

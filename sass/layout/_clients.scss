@@ -1,0 +1,42 @@
+.clients{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.client__title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+
+
+.client__post-title{
+    display: flex;
+    gap: 30px;
+    justify-content: center; 
+
+    
+}
+
+.client__img{
+    fill: #AFB1B8;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus{
+    border-color: $hover-focus-color;
+    fill: $hover-focus-color;
+    
+}
+}
+
