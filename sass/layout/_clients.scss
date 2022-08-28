@@ -1,23 +1,33 @@
 .clients{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @media screen and (min-width: 1200px) {
     padding-top: 94px;
     padding-bottom: 94px;
+    }
 }
 
 .client__title{
-    text-align: center;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    margin-bottom: 50px;
+    
+        text-align: center;
+        margin-bottom: 30px;
+        font-weight: 700;
+        font-size: 28px;
+        @media screen and (min-width: 1200px) {
+        font-size: 36px;
+        margin-bottom: 50px;
+        }
+    
 }
 
 
 .client__post-title{
     display: flex;
-    gap: 30px;
-    justify-content: center; 
-
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 30px;
     
 }
 
@@ -36,7 +46,15 @@
     &:focus{
     border-color: $hover-focus-color;
     fill: $hover-focus-color;
-    
-}
+    }
 }
 
+.client-item{
+    @media screen and (min-width: 768px){
+        max-width: calc((100% - 30px) / 3);
+    }
+    @media screen and (min-width: 1200px){
+        max-width: calc((100% - 120px) / 6);
+    }
+
+}
