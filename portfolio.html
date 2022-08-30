@@ -20,7 +20,7 @@
     
 </head>
 <body>
-    <header class="header">
+    <!-- <header class="header">
         <div class="container header__container">
             <nav class="header__container">
                 <a class="link header__logo-size" href="./index.html"> <span class="header__logo header__logo-font">Web</span><span class="header__logo1 header__logo-font">Studio</span></a>
@@ -53,7 +53,7 @@
         </div>
         
     </header>
-
+ -->
 
     <main>
     <section class="portfolio">
@@ -194,17 +194,18 @@
 
     <footer class="footer">
         <div class="container footer__container">
-            <div>
+            <div class="footer__contacts">
+                <div>
             <div class="footer__logo-size">
-            <a class="link" href="index.html"> <span class="footer__logo footer__logo-font">Web</span><span class="footer__logo2 footer__logo-font">Studio</span></a>
+            <a class="link footer__title" href="index.html"> <span class="footer__logo footer__logo-font">Web</span><span class="footer__logo2 footer__logo-font">Studio</span></a>
             </div>
 
             <address>
-                <ul class="list">
+                <ul class="list footer__list">
                     
-                    <li class="footer__contact"><a class="footer__navigation footer__address-font footer__navigation-address link" href="https://goo.gl/maps/xgKNqcMdcs3EZ4Po8" target="_blank" rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a></li>
-                    <li class="footer__contact"><a class="footer__navigation footer__contact-color footer__address-font link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="footer__contact"><a class="footer__navigation footer__contact-color footer__address-font link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    <li class="footer__item"><a class="footer__navigation footer__address-font footer__navigation-address link" href="https://goo.gl/maps/xgKNqcMdcs3EZ4Po8" target="_blank" rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a></li>
+                    <li class="footer__item"><a class="footer__navigation footer__item-color footer__address-font link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="footer__item"><a class="footer__navigation footer__item-color footer__address-font link" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul> 
             </address>
         </div>
@@ -239,17 +240,19 @@
                             </a></li>
         </ul>
     </div>
+</div>
 
 
     <form class="subscribe">
 
-        <p class="subscribe__title">Підпишіться на розсилку</p>
-
         <div class="subscribe__form">
         <label for="e-mail"></label>
-        <input class="subscribe__input" type="email" name="e-mail" placeholder="E-mail" id="e-mail">
-
-        <button class="subscribe__btn" type="submit">
+        <inpu<form class="footer-form">
+            <label class="footer-label">
+            <h3 class="footer__subscribe">Підпишіться на розсилку</h3>
+            <div class="footer-form__group">
+                <input class="footer-form__input" type="email" name="email" placeholder="E-mail" />
+                <button class="footer__button btn" type="submit">
             Підписатися
             <svg class="subscribe__footertelegramm" width="24px" height="24px">
                 <use href="./img/lessons4/symbol-defs.svg#icon-icon-send"></use>
