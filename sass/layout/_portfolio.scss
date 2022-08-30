@@ -1,4 +1,5 @@
 .portfolio{
+    
     padding-top: 60px;
     padding-bottom: 60px;
     border-top: 1px solid #ececec;
@@ -9,18 +10,24 @@
 }
 
 .portfolio__button{
+   
     display: flex;
-  justify-content: center;
+  justify-content: start;
   flex-wrap: wrap;
   column-gap: 8px;
   row-gap: 15px;
   margin-bottom: 30px;
   @media screen and (min-width: 1200px) {
     margin-bottom: 50px;
-    
-  }
-
+    justify-content: center;
 }
+@media screen and (min-width: 768px) {
+    justify-content: center;
+  }
+}
+
+
+
 
 .portfolio__button-secondary{
     color: $first-color;

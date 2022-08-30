@@ -143,22 +143,22 @@ body {
 @media screen and (min-width: 480px) {
   .hero {
     max-width: 480px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-bg-mob.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/lessons4/hero.jpg);
   }
 }
 @media screen and (min-width: 768px) {
   .hero {
     max-width: 768px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-bg-tab.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/lessons4/hero.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    max-width: 1200px;
+    max-width: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
     height: 600px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-bg-desktop.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/lessons4/hero.jpg);
   }
 }
 
@@ -490,7 +490,7 @@ body {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  gap: 70px;
+  gap: 93px;
 }
 @media screen and (min-width: 1200px) {
   .footer__container {
@@ -680,7 +680,6 @@ body {
   .join-up {
     display: block;
     text-align: left;
-    margin-left: 75px;
   }
 }
 
@@ -1026,7 +1025,7 @@ body {
 
 .portfolio__button {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   flex-wrap: wrap;
   column-gap: 8px;
   row-gap: 15px;
@@ -1035,6 +1034,12 @@ body {
 @media screen and (min-width: 1200px) {
   .portfolio__button {
     margin-bottom: 50px;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .portfolio__button {
+    justify-content: center;
   }
 }
 
