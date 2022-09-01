@@ -27,7 +27,29 @@
     .backdrob.is-hidden &{
         transform: translate( -50%, -50% ) scale(0);
     }
+    
 }
+
+@media screen and (max-width: 767px) {
+    .modal {
+      max-width: 450px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .modal {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 450px;
+      
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .modal {
+      width: 528px;
+      min-height: 581px;
+    }
+  }
 
 .modal__title{
     text-align: center;
@@ -121,6 +143,8 @@
 
 
 .modal__rules-text{
+
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -129,6 +153,7 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: $secondary-color;
+    
     span{
         width: 16px;
         height: 15px;
@@ -139,11 +164,39 @@
         align-items: center;
         justify-content: center;
     
+
+        
     .modal__check:checked + & {
         background-color: $hover-focus-color;
         border: none;
     }
     }
+    
+}
+
+.modal__rules-text{
+
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 7px;
+  line-height: 1.17;
+}
+@media screen and (min-width: 480px) {
+  .modal__rules-text{
+    font-size: 12px;
+    line-height: 1.17;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal__rules-text {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .modal__check-icon{
@@ -162,6 +215,19 @@
     letter-spacing: 0.03em;
     text-decoration-line: underline;
     color: #2196F3;
+}
+    @media screen and (min-width: 480px) {
+        .modal__rules-link{
+          font-size: 12px;
+          line-height: 1.17;
+        }
+      }
+      @media screen and (min-width: 1200px) {
+        .modal__rules-link {
+          font-size: 14px;
+          line-height: 1.71;
+        }
+
 }
 
 .modal__title-btn{
