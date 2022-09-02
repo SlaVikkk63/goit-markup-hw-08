@@ -22,10 +22,13 @@
     margin-bottom: 50px;
 }
 
+.doing__picture-title{
+    display: flex;
+}
 
 .doing__picture{
     margin-right: 30px;
-    display: flex;
+    
     align-items: center;
     gap: 30px;
     

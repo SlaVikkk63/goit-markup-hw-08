@@ -44,9 +44,13 @@
     font-size: 14px;
     line-height: 1.14;
     margin-bottom: 10px;
-    text-align: center;
-
+    text-align: start;
+    @media screen and (max-width: 768px){
+        text-align: center;
+    }
 }
+
+
 
 .benefits__title{
     color: $secondary-color;
