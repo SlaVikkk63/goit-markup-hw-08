@@ -803,6 +803,7 @@ body {
     text-align: center;
     align-items: center;
     margin-right: 0;
+    margin-top: 60px;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -810,6 +811,7 @@ body {
     text-align: center;
     align-items: center;
     margin-right: 0;
+    margin-top: 60px;
   }
 }
 
@@ -961,7 +963,6 @@ body {
 
 .footer-form {
   display: block;
-  margin-top: 60px;
 }
 @media screen and (min-width: 481px) and (max-width: 1199px) {
   .footer-form {
