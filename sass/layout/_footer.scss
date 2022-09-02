@@ -88,12 +88,14 @@ text-transform: uppercase;
     text-align: center;
     align-items: center;
     margin-right: 0;
+    padding-top: 60px;
 }
 
 @media screen and (max-width: 1199px) {
     text-align: center;
     align-items: center;
     margin-right: 0;
+    padding-top: 60px;
 }
 }
 
@@ -282,6 +284,7 @@ text-transform: uppercase;
     outline: none;
     @media screen and (min-width: 480px) {
     width: 450px;
+    
     }
 
     @media screen and (min-width: 1200px) {
