@@ -535,12 +535,11 @@ body {
 
 .doing__picture-title {
   display: flex;
+  gap: 30px;
 }
 
 .doing__picture {
-  margin-right: 30px;
   align-items: center;
-  gap: 30px;
 }
 
 .doing__title {
